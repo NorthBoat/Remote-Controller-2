@@ -3,7 +3,7 @@
 
 部署在 `39.106.160.174:8084`
 
-标题的`listener`是监听器的下载链接，使用`java -jar xxx.jar`命令本地运行，设置`Token`
+标题下小字英文的`listener`是监听器的下载链接，使用`java -jar xxx.jar`命令本地运行，设置`Token`
 
 后在网页上相应指令旁输入`Token`并确认即可生效
 
