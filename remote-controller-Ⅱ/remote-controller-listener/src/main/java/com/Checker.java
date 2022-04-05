@@ -1,6 +1,5 @@
 package com;
 
-import java.util.concurrent.TimeUnit;
 
 public class Checker {
 

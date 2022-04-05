@@ -125,12 +125,7 @@ public class Listener {
         System.out.println("设置成功!");
         return 200;
     }
-    // 删除Token
-    public void delToken(){
-        if(jedis.del(this.token) == 1){
-            System.out.println("已清除本次Token");
-        };
-    }
+
     // 关闭连接
     public void close(){
         jedis.close();

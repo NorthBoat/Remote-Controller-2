@@ -12,17 +12,22 @@
         <!-- Header -->
         <div id="header">
 
-            <a href="#result"><span class="logo icon fa-paper-plane"></span></a>
+            <a href="#"><span class="logo icon fa-paper-plane"></span></a>
             <h1>Hi. This is My Remote Controller.</h1>
             <p>
                 一个适用于windows的远程控制程序 <br/>Help control your PC with a
-                <a href="/program/remote-controller-listener.jar" download>listener</a>
+                <a href="/program/ListenerSetup.exe" download>listener</a>
             </p>
-
+            <footer class="major container medium">
+                <h3>命令返回结果</h3>
+                    <h4 th:if="${#strings.isEmpty(result)}">NULL</h4>
+                    <h4 th:text="${result}"></h4>
+            </footer>
         </div>
 
         <!-- Main -->
         <div id="main">
+
 
             <header class="major container medium">
                 <h2>下载并运行Listener后
@@ -217,13 +222,7 @@
             </div>
             -->
 
-            <footer id="result" class="major container medium">
-                <h3>命令返回结果</h3>
-                <h4 th:text="${result}"></h4>
-<!--                <ul class="actions special">-->
-<!--                    <li><a href="#" class="button">确认</a></li>-->
-<!--                </ul>-->
-            </footer>
+
 
         </div>
 
